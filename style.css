@@ -84,3 +84,30 @@ p {
 .message{
     color: blanchedalmond;
 }
+@media (max-width: 768px) {
+    .neon-text {
+        font-size: 2em;
+    }
+
+    #message, .message {
+        font-size: 1em;
+    }
+
+    .cake img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .neon-text {
+        font-size: 1.5em;
+    }
+
+    #message, .message {
+        font-size: 0.9em;
+    }
+
+    .cake img {
+        max-width: 200px;
+    }
+}
