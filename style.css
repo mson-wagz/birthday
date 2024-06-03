@@ -75,11 +75,19 @@ p {
 #message{
     color: azure;
 }
+
 .cake {
-    width: 200px;
-    margin-top: 20px;
+    display: flex;
     justify-content: center;
-    margin-left: 30em;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cake img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
 }
 .message{
     color: blanchedalmond;
